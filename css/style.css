@@ -2,3 +2,69 @@ main,
 footer {
   display: flex;
 }
+
+body header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body header {
+  background-color: rgb(18, 29, 81);
+}
+
+body {
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+main .content{
+  background-color: aqua;
+}
+
+main .sidebar{
+  background-color: yellow;
+}
+
+main .sidebar h3 {
+  color: blue;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content #about + p{
+  color: white;
+  background-color: black;
+}
+
+.content #services + p{
+  color: white;
+  background-color: green;
+}
+
+.content ul:first-of-type {
+  list-style-type: circle;
+}
+
+.content ul:first-of-type li:nth-child(even){
+  color: red;
+}
+
+.content ul a {
+  color: red;
+}
+
+footer div:first-child {
+  background-color: pink;
+}
+
+footer div:last-child {
+  background-color: gray;
+}
+
+footer div:nth-child(2) {
+  background-color: brown;
+  color: white;
+}
